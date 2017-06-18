@@ -7,3 +7,8 @@
 ## Methods
 
 * [Defining Methods](methods.md)
+
+## Typography
+
+* Line height
+
