@@ -1,6 +1,6 @@
 # Summary
 
-## Overview
+## Brisbane City Council Digital Standards Guide
 
 * [Introduction](README.md)
 
@@ -12,4 +12,7 @@
 
 * [Overview](ui-components/line-height.md)
 * [Typography](ui-components/typography.md)
+  * [Typefaces](typefaces.md)
+
+
 
