@@ -8,7 +8,8 @@
 
 * [Defining Methods](methods.md)
 
-## Typography
+## UI components
 
-* Line height
+* [Overview](ui-components/line-height.md)
+* [Typography](ui-components/typography.md)
 
