@@ -1,8 +1,10 @@
-# My Awesome API
+# Introduction
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+It is essential to use consistent formatting throughout Brisbane City Council's many digital channels. 
 
+Users require digital channels that are easy to navigate, and content that is easy to read and understand.
 
+This Digital Standards Guide is a set of standards \(styling, UI components and rules\) specifically created for Brisbane City Council’s digital channels. 
 
 
 
