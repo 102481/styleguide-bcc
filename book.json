@@ -16,9 +16,12 @@
                 }
             ]
         }
-    },
+    }
+},
+
+{
     "plugins": ["styles-sass"],
     "styles": {
-        "pdf": "./styles/pdf.sass"
+        "pdf": "./styles/website.sass"
     }
 }
