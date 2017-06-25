@@ -2,7 +2,7 @@
   "plugins": ["theme-api", "styles-sass"],
   "pluginsConfig": {
     "styles": {
-      "pdf": "./styles/website.sass"
+      "website": "./styles/website.scss"
     },
     "theme-api": {
       "theme": "dark",
