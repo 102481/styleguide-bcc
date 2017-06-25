@@ -1,27 +1,21 @@
 {
-    "plugins": [ "theme-api" ],
-    "pluginsConfig": {
-
-        "theme-api": {
-            "theme": "dark",
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
-        }
-    }
-},
-
-{
-    "plugins": ["styles-sass"],
+  "plugins": ["theme-api", "styles-sass"],
+  "pluginsConfig": {
     "styles": {
-        "pdf": "./styles/website.sass"
+      "pdf": "./styles/website.sass"
+    },
+    "theme-api": {
+      "theme": "dark",
+      "languages": [{
+        "lang": "js",
+        "name": "JavaScript",
+        "default": true
+      },
+        {
+          "lang": "go",
+          "name": "Go"
+        }
+      ]
     }
+  }
 }
