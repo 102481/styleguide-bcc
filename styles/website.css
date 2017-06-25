@@ -1,4 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 {
+  font-family: 'Open Sans', Arial, SansSerif;
+}
+
 .book.color-theme-3 .book-header {
   background: #106db2;
   height: 65px;
