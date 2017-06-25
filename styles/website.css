@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, li {
   padding: 8px 0 0 0;
 }
 
+.book.color-theme-3 .book-header h1 {
+  color: #106db2;
+}
+
 .book-header:before {
   width: 8px;
   height: 100%;
