@@ -1,7 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-h1 {
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('proximanova-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('proximanova-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('proximanova-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('proximanova-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+h1, h2 {
+  font-family: 'Proxima Nova', Arial, SansSerif;
+}
+
+h3, h4, h5, h6 {
   font-family: 'Open Sans', Arial, SansSerif;
 }
 
