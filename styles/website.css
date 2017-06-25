@@ -30,6 +30,18 @@ h1, h2, h3, h4, h5, h6, li {
   padding: 8px 0 0 0;
 }
 
+.book-header:before {
+  width: 8px;
+  height: 100%;
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
+  background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
+  background-size: 100% 50px;
+}
+
 .book.color-theme-3 .book-header .btn {
   color: #fff;
 }
