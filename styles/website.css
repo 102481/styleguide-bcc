@@ -27,10 +27,10 @@ h1, h2, h3, h4, h5, h6, li {
 .book.color-theme-3 .book-header {
   background: #fff;
   height: 65px;
-  padding: 8px 0 0 65px;
+  padding: 8px 0 0 80px;
   background-image: url(https://www.brisbane.qld.gov.au/sites/all/themes/custom/bcc_theme/logo.png);
   background-repeat: no-repeat;
-  background-size: 5%;
+  background-size: 4%;
   background-position: 2%;
 }
 
