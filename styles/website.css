@@ -10,12 +10,18 @@
   url('proximanova-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6, li {
   font-family: 'Proxima Nova', Arial, SansSerif;
 }
 
-h3, h4, h5, h6, p, li {
+ p, input {
   font-family: 'Open Sans', Arial, SansSerif;
+}
+
+.page-inner {
+  max-width: 900px;
+  margin: 0 auto 70px auto;
+  padding: 20px 15px 40px 15px;
 }
 
 .book.color-theme-3 .book-header {
