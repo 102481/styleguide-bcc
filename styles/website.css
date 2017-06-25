@@ -1,4 +1,16 @@
 
 .book.color-theme-3 .book-header {
   background: #106db2;
+  height: 65px;
+  padding: 8px 0 0 0;
+}
+
+.book.color-theme-3 .book-header .btn {
+  color: #fff;
+}
+
+#book-search-input {
+  padding: 12px 0 0 10px;
+  margin-top: 0;
+  height: 65px;
 }
