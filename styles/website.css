@@ -25,12 +25,12 @@ h1, h2, h3, h4, h5, h6, li {
 }
 
 .book.color-theme-3 .book-header {
-  background: #106db2;
+  background: #fff;
   height: 65px;
   padding: 8px 0 0 0;
 }
 
-ul .summary:before {
+.book-header:before {
   width: 8px;
   height: 100%;
   content: '';
@@ -39,11 +39,11 @@ ul .summary:before {
   top: 0px;
   background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
   background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
-  background-size: 100% 50px;
+  background-size: 100% 22px;
 }
 
 .book.color-theme-3 .book-header .btn {
-  color: #fff;
+  color: #106db2;
 }
 
 #book-search-input {
