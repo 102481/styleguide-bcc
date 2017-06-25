@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, li {
 
 .page-inner {
   max-width: 900px;
-  margin: 0 auto 70px auto;
+  margin: 70px auto 0 auto;
   padding: 20px 15px 40px 15px;
 }
 
