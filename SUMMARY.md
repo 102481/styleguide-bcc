@@ -10,9 +10,6 @@
 
 ## UI components
 
-* [Overview](ui-components/line-height.md)
 * [Typography](ui-components/typography.md)
   * [Typefaces](typefaces.md)
-
-
 
