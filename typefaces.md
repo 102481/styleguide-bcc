@@ -1,8 +1,8 @@
 ## Typefaces \(Fonts\)
 
-PC/desktop fonts have been created and optimised specifically for use on websites, using CSS.
+PC/desktop typefaces \(fonts\) have been created and optimised specifically for use on websites, using CSS.
 
-A PC/desktop font is given for documents produced on your own desktop computer as the standard corporate fonts are not usually available on Council computers.
+Our standard Council typefaces are:  
 
 Open Sans \(OTF\)
 

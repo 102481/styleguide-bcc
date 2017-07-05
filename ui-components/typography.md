@@ -1,4 +1,4 @@
 # Typography
 
-Consistent standard fonts or typefaces in all published and online material is part of Council’s unique visual identity. Inconsistency in fonts can undermine our brand.
+Consistent typefaces \(fonts\) used across Council's digital channels is part of our unique visual identity. Any inconsistency could undermine our brand.
 
