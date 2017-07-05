@@ -11,15 +11,9 @@ Open Sans for body copy \(paragraphs\)
 To use this font, use the following code:
 
 ```css
-font-family: 
-open-sans, sans-serif
-;
-font-style: 
-normal
-;
-font-weight: 
-300
-;
+font-family: open-sans, sans-serif;
+font-style: normal;
+font-weight: 400;
 ```
 
 Proxima Nova for headings
@@ -29,15 +23,9 @@ Proxima Nova for headings
 To use this font, use the following code:
 
 ```css
-font-family: 
-proxima-nova, sans-serif
-;
-font-style: 
-normal
-;
-font-weight: 
-100
-;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 400;
 ```
 
 
