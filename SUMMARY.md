@@ -11,6 +11,4 @@
 ## UI components
 
 * [Typography](ui-components/typography.md)
-  * [Typefaces](typefaces.md)
-  * [Heading and paragraphs](heading-and-paragraphs.md)
 
