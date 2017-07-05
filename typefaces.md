@@ -6,15 +6,39 @@ A PC/desktop font is given for documents produced on your own desktop computer a
 
 Open Sans \(OTF\)
 
-_&lt;image&gt;_
+![](/assets/typography-open-sans.png)
+
+To use this font, use the following code:
+
+```
+font-family: 
+open-sans, sans-serif
+;
+font-style: 
+normal
+;
+font-weight: 
+300
+;
+```
 
 Proxima Nova
 
-_&lt;image&gt;_
+![](/assets/typography-promixa-nova.png)
 
-PC/desktop: Open Sans 
+To use this font, use the following code:
 
-PC/desktop: Proxima Nova
+```
+font-family: 
+proxima-nova, sans-serif
+;
+font-style: 
+normal
+;
+font-weight: 
+100
+;
+```
 
 
 
