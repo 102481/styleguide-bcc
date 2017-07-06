@@ -10,8 +10,21 @@
   url('proximanova-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('proximanova-semibold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('proximanova-semibold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('proximanova-semibold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('proximanova-semibold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 h1, h2, h3, h4, h5, h6, li {
   font-family: 'Proxima Nova', Arial, SansSerif;
+}
+
+h1 a {
+  font-family: 'Proxima Nova Semibold', Arial, SansSerif;
 }
 
  p, input {
