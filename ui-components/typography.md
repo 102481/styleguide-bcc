@@ -18,8 +18,7 @@ This font uses the following code:
 
 ```css
 font-family: open-sans, sans-serif;
-font-style: normal;
-font-weight: 400;
+font-weigh: normal;
 ```
 
 ### Proxima Nova
@@ -32,8 +31,7 @@ This font uses the following code:
 
 ```css
 font-family: proxima-nova, sans-serif;
-font-style: normal;
-font-weight: 400;
+font-weight: normal;
 ```
 
 ---
