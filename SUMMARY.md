@@ -11,4 +11,6 @@
 ## UI components
 
 * [Typography](ui-components/typography.md)
+  * [Links](ui-components/typography/links.md)
+  * [Lists](ui-components/lists.md)
 
