@@ -1,11 +1,38 @@
 ## Links
 
-Links lead users to a different page or further information
+### Styles
 
-This is [a link](javascript:void%280%29;) in its default state. 
+Links lead users to a different page or further information.
+
+This is [a link](javascript:void%280%29;) in its default state.
 
 ```
-<p>This is <a href="URL">a link</a>in its default state</p>
+<p>This is <a href="#">a link</a>in its default state</p>
+```
+
+For Brisbane City Council digital standards, links should be styled as follows:
+
+* An unvisited link is blue
+* A visited link is underlined and a darker blue 
+* An active link is underlined and a darker blue 
+
+```
+<style>
+a:link {
+    color: #106db2; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c5083;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0c5083;
+    text-decoration: underline;
+}
+</style>
 ```
 
 
