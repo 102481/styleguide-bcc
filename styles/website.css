@@ -23,11 +23,7 @@ h1, h2, h3, h4, h5, h6, li {
   font-family: 'Proxima Nova', Arial, SansSerif;
 }
 
-h1 a {
-  font-family: 'Proxima Nova Semibold', Arial, SansSerif;
-}
-
- p, input {
+p, input {
   font-family: 'Open Sans', Arial, SansSerif;
 }
 
@@ -61,6 +57,10 @@ h1 a {
   background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
   background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
   background-size: 100% 26px;
+}
+
+.book-header h1 {
+  font-family: 'Proxima Nova Semibold', Arial, SansSerif;
 }
 
 .book.color-theme-3 .book-header .btn {
