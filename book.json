@@ -1,21 +1,30 @@
 {
-  "plugins": ["theme-api", "styles-sass"],
+  "plugins": [
+    "theme-api",
+    "styles-sass",
+    "bring-yer-favicon"
+  ],
   "pluginsConfig": {
     "styles": {
       "website": "./styles/website.scss"
     },
     "theme-api": {
       "theme": "dark",
-      "languages": [{
-        "lang": "js",
-        "name": "JavaScript",
-        "default": true
-      },
+      "languages": [
+        {
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
+        },
         {
           "lang": "go",
           "name": "Go"
         }
       ]
+    },
+    "favicons": {
+      "favicon.ico": "favicon.ico",
+      "apple-touch-icon-precomposed-152.png": "apple-touch-icon.png"
     }
   }
 }
