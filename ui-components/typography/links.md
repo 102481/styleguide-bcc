@@ -19,10 +19,10 @@ For Brisbane City Council digital standards, links should be styled as follows:
 **&lt;/&gt; Source**
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+<a href="#" target="_blank">Add text to link here </a> 
+```
+
+```css
 a:link {
 color: #106db2;
 text-decoration: none;
@@ -37,15 +37,7 @@ a:active {
 color: #0c5083;
 text-decoration: underline;
 }
-</style>
 
-</head>
-<body>
-
-<a href="#" target="_blank">Add text to link here </a> 
-
-</body>
-</html>
 ```
 
 ---
