@@ -61,6 +61,7 @@ p, input {
 
 .book-header h1 {
   font-family: 'Proxima Nova Semibold', Arial, SansSerif;
+  font-weight: normal;
 }
 
 .book.color-theme-3 .book-header .btn {
