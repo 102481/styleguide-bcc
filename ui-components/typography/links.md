@@ -42,7 +42,7 @@ text-decoration: underline;
 </head>
 <body>
 
-<a href="#" target="_blank">HTML Images</a> 
+<a href="#" target="_blank">Add text to link here </a> 
 
 </body>
 </html>
@@ -52,11 +52,5 @@ text-decoration: underline;
 
 ### Target Attributes
 
- A  link to internal content \(link to the same website\) is specified with a relative URL \(without http://www....\).
-
-
-
-
-
-
+A target to use for internal and external links and for image area links.
 
