@@ -54,7 +54,7 @@ text-decoration: underline;
 
 A target to use for internal and external links and for image area links.
 
-To align with our digital standards, any links to internal Brisbane City Council content should open in the same window \(active window\). However, a link to external content should open in a new window or tab. 
+To align with our digital standards, any links to internal Brisbane City Council content should open in the same window \(active window\). However, a link to external content should open in a new window or tab.
 
 In order to open a link in a new window / tab, simply add `target="_blank"` inside the `<a>` tag:
 
