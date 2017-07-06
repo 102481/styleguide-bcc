@@ -18,8 +18,7 @@ This font uses the following code:
 
 ```css
 font-family: open-sans, sans-serif;
-font-style: normal;
-font-weight: 400;
+font-weight: normal;
 ```
 
 ### Proxima Nova
@@ -32,8 +31,7 @@ This font uses the following code:
 
 ```css
 font-family: proxima-nova, sans-serif;
-font-style: normal;
-font-weight: 400;
+font-weight: normal;
 ```
 
 ---
@@ -46,57 +44,60 @@ To help users gain a sense of Brisbane City Council's content at a glance we hav
 
 ```css
 font-family: ‘proxima_novaregular, Arial, sans-serif;’
-font-weight: 400
-font-size: 31px
-line-height: 46px
-colour: #106db2
+font-weight: 400;
+font-size: 31px;
+line-height: 46px;
+color: #106db2;
 ```
 
-_Tip: There should only be one H1 heading per page._
+_Tip: There should only be one  
+ H1 heading per page._
 
 ## Heading 2 example
 
 ```css
 font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 400
-font-size: 26px
-line-height: 39px
-colour: #106db2
+font-weight: 400;
+font-size: 26px;
+line-height: 39px;
+color: #106db2;
 ```
 
-_Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain what each section of information is about._
+_Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain  
+ what each section of information is about._
 
 ### Heading 3 example
 
 ```css
 font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 400
-font-size: 22px
-line-height: 32px
-colour: #106db2
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #106db2;
 ```
 
 #### Heading 4 example
 
 ```css
 font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 700
-font-size: 20px
-line-height: 30px
-colour: #106db2
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #106db2;
 ```
 
 Body copy \(paragraph\) example
 
 ```css
 font-family: OpenSansRegular,Arial,sans-serif;
-font-weight: 400 
-font-size: 14px
-line-height: 22px
-colour: #333333
+font-weight: 400; 
+font-size: 14px;
+line-height: 22px;
+color: #333333;
 ```
 
-_Tip: To make long sections of text easier to read, divide the content into logical paragraphs._
+_Tip: To make long sections of text easier to read, divide the content into logical  
+ paragraphs._
 
 **&lt;/&gt; Source**
 
