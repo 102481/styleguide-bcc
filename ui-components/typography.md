@@ -52,6 +52,8 @@ line-height: 46px
 colour: #106db2
 ```
 
+_Tip: There should only be one H1 heading per page._
+
 ## Heading 2 example
 
 ```css
@@ -61,6 +63,8 @@ font-size: 26px
 line-height: 39px
 colour: #106db2
 ```
+
+_Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain what each section of information is about._
 
 ### Heading 3 example
 
@@ -92,6 +96,8 @@ line-height: 22px
 colour: #333333
 ```
 
+_Tip: To make long sections of text easier to read, divide the content into logical paragraphs._
+
 **&lt;/&gt; Source**
 
 ```html
@@ -104,8 +110,6 @@ colour: #333333
 
 <p>Body copy (paragraph) example</p>
 ```
-
-##### 
 
 
 
