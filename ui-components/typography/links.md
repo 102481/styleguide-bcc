@@ -16,23 +16,36 @@ For Brisbane City Council digital standards, links should be styled as follows:
 * A visited link is underlined and a darker blue 
 * An active link is underlined and a darker blue 
 
-```
+**&lt;/&gt; Source**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 a:link {
-    color: #106db2; 
-    text-decoration: none;
+color: #106db2;
+text-decoration: none;
 }
 
 a:hover {
-    color: #0c5083;
-    text-decoration: underline;
+color: #0c5083;
+text-decoration: underline;
 }
 
 a:active {
-    color: #0c5083;
-    text-decoration: underline;
+color: #0c5083;
+text-decoration: underline;
 }
 </style>
+
+</head>
+<body>
+
+<a href="#" target="_blank">HTML Images</a> 
+
+</body>
+</html>
 ```
 
 
