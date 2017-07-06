@@ -48,5 +48,15 @@ text-decoration: underline;
 </html>
 ```
 
+---
+
+### Target Attributes
+
+ A  link to internal content \(link to the same website\) is specified with a relative URL \(without http://www....\).
+
+
+
+
+
 
 
