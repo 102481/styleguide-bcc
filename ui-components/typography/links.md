@@ -6,7 +6,7 @@ Links lead users to a different page or further information.
 
 This is [a link](javascript:void%280%29;) in its default state.
 
-```
+```html
 <p>This is <a href="#">a link</a>in its default state</p>
 ```
 

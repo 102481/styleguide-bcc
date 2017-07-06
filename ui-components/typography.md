@@ -74,7 +74,7 @@ colour: #106db2
 
 #### Heading 4 example
 
-```html
+```css
 font-family: proxima_novaregular,Arial,sans-serif;
 font-weight: 700
 font-size: 20px
@@ -84,7 +84,7 @@ colour: #106db2
 
 Body copy \(paragraph\) example
 
-```
+```css
 font-family: OpenSansRegular,Arial,sans-serif;
 font-weight: 400 
 font-size: 14px
@@ -94,7 +94,7 @@ colour: #333333
 
 **&lt;/&gt; Source**
 
-```
+```html
 <h1>Heading 1 example</h1>
 <h2>Heading 2 example</h2>
 <h3>Heading 3 example</h3>
