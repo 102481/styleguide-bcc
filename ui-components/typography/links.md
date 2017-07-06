@@ -52,5 +52,15 @@ text-decoration: underline;
 
 ### Target Attributes
 
-A target to use for internal and external links and for image area links.
+A target to use for internal and external links and for image area links. 
+
+By default, links to internal Brisbane City Council content should open in the same window \(active window\). However, a link to external content \(a non-BCC website\) should open in a new window. 
+
+
+
+
+
+
+
+
 
