@@ -45,6 +45,8 @@ p, input {
 
 .book.color-theme-3 .book-header h1 {
   color: #106db2;
+  font-family: 'Proxima Nova Semibold', Arial, SansSerif;
+  font-weight: normal;
 }
 
 .book-header:before {
@@ -57,11 +59,6 @@ p, input {
   background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
   background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
   background-size: 100% 26px;
-}
-
-.book-header h1 {
-  font-family: 'Proxima Nova Semibold', Arial, SansSerif;
-  font-weight: normal;
 }
 
 .book.color-theme-3 .book-header .btn {
