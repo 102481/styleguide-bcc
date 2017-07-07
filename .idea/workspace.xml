@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15896b5-8d2b-4d9b-bf1e-6929f3ea7c30" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon/favicon.ico" afterPath="$PROJECT_DIR$/assets/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.json" afterPath="$PROJECT_DIR$/book.json" />
     </list>
@@ -28,8 +28,8 @@
       <file leaf-file-name="book.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -192,7 +192,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="favicon" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,6 +211,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/favicon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -291,12 +292,12 @@
       <updated>1498301044983</updated>
       <workItem from="1498301046403" duration="11093000" />
       <workItem from="1499125509161" duration="446000" />
-      <workItem from="1499314924349" duration="7377000" />
+      <workItem from="1499314924349" duration="7846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18916000" />
+    <option name="totallyTimeSpent" value="19385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1380" y="56" width="1126" height="1288" extended-state="0" />
@@ -533,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>

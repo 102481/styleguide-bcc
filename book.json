@@ -22,8 +22,6 @@
         }
       ]
     },
-    "favicon": {
-      "favicon.ico": "favicon/favicon.ico",
-    }
+    "favicon": "assets/favicon.ico"
   }
 }
