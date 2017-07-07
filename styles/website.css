@@ -27,11 +27,20 @@ p, input {
   font-family: 'Open Sans', Arial, SansSerif;
 }
 
+button .copy-code-button {
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+}
+
 .page-inner {
   max-width: 900px;
   margin: 70px auto 0 auto;
   padding: 20px 15px 40px 28px;
 }
+
+
 
 .book.color-theme-3 .book-header {
   background: #fff;
