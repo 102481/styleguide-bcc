@@ -37,8 +37,14 @@ button {
 .copy-code-button {
   border-width: 0 !important;
   border-style: none !important;
+  padding: 5px !important;
   border-color: transparent !important;
   border-image: none !important;
+  background-color: #ddd !important;
+  border-radius: 0 !important;
+  color: #333 !important;
+  font-family: "Proxima Nova";
+  font-size: 8pt !important;
 }
 
 .page-inner {
