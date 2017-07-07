@@ -27,7 +27,14 @@ p, input {
   font-family: 'Open Sans', Arial, SansSerif;
 }
 
-button .copy-code-button {
+button {
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+}
+
+.copy-code-button {
   border-width: 0;
   border-style: none;
   border-color: transparent;
