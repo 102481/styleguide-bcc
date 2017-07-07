@@ -50,8 +50,7 @@ line-height: 46px;
 color: #106db2;
 ```
 
-_Tip: There should only be one  
- H1 heading per page._
+_Tip: There should only be one H1 heading per page._
 
 ## Heading 2 example
 
@@ -63,8 +62,7 @@ line-height: 39px;
 color: #106db2;
 ```
 
-_Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain  
- what each section of information is about._
+_Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain what each section of information is about._
 
 ### Heading 3 example
 
@@ -96,8 +94,7 @@ line-height: 22px;
 color: #333333;
 ```
 
-_Tip: To make long sections of text easier to read, divide the content into logical  
- paragraphs._
+_Tip: To make long sections of text easier to read, divide the content into logical paragraphs._
 
 **&lt;/&gt; Source**
 
