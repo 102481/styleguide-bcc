@@ -13,7 +13,7 @@ Here is how to print a message to `stdout` using JavaScript.
 ```js
 console.log('My first method');
 ```
-
+<button>Test</button>
 {% sample lang="go" %}
 Here is how to print a message to `stdout` using Go.
 
