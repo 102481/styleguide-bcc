@@ -37,7 +37,7 @@ button {
 .copy-code-button {
   border-width: 0 !important;
   border-style: none !important;
-  padding: 5px !important;
+  padding: 2px 5px !important;
   border-color: transparent !important;
   border-image: none !important;
   background-color: #ddd !important;
