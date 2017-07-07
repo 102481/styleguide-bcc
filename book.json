@@ -2,7 +2,8 @@
   "plugins": [
     "theme-api",
     "styles-sass",
-    "custom-favicon"
+    "custom-favicon",
+    "copy-code-button"
   ],
   "pluginsConfig": {
     "styles": {
