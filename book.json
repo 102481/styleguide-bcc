@@ -2,7 +2,7 @@
   "plugins": [
     "theme-api",
     "styles-sass",
-    "bring-yer-favicon"
+    "custom-favicon"
   ],
   "pluginsConfig": {
     "styles": {
@@ -22,9 +22,8 @@
         }
       ]
     },
-    "favicons": {
-      "favicon.ico": "favicon.ico",
-      "apple-touch-icon.png": "apple-touch-icon.png"
+    "favicon": {
+      "favicon.ico": "favicon/favicon.ico",
     }
   }
 }
