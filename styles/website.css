@@ -35,10 +35,10 @@ button {
 }
 
 .copy-code-button {
-  border-width: 0;
-  border-style: none;
-  border-color: transparent;
-  border-image: none;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-image: none !important;
 }
 
 .page-inner {
