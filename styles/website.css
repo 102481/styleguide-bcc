@@ -84,19 +84,19 @@ button {
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #C9C9C9;
-  padding: 6px 14px;
+  padding: 6px 15px;
 }
 
 .btn-secondary-hover {
   margin-left: 10px;
   background: #ffd200;
   color: #333;
-  font-size: 21px;
+  font-size: 18px;
   font-family: 'Proxima Nova', Arial, SansSerif;
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #C9C9C9;
-  padding: 6px 14px;
+  padding: 6px 15px;
 }
 
 .book.color-theme-3 .book-header {
