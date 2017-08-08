@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b15896b5-8d2b-4d9b-bf1e-6929f3ea7c30" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/website.css" afterPath="$PROJECT_DIR$/styles/website.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-components/buttons.md" afterPath="$PROJECT_DIR$/ui-components/buttons.md" />
     </list>
     <ignored path="brisbane-city-council-digital-standards-guide.iws" />
@@ -35,22 +34,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="website.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="website.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/website.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+            <state relative-caret-position="246">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttons.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buttons.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui-components/buttons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="255">
-                <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+                <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -258,12 +257,12 @@
       <workItem from="1499125509161" duration="446000" />
       <workItem from="1499314924349" duration="13341000" />
       <workItem from="1500520207742" duration="570000" />
-      <workItem from="1502154647970" duration="3548000" />
+      <workItem from="1502154647970" duration="3658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28998000" />
+    <option name="totallyTimeSpent" value="29108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="995" y="23" width="1418" height="1288" extended-state="0" />
@@ -548,22 +547,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/website.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui-components/buttons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
-            <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/website.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
