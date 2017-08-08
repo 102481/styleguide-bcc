@@ -53,7 +53,13 @@ button {
   padding: 20px 15px 40px 28px;
 }
 
-
+.btn-primary-default {
+  background: #106db2;
+  font-size: 18px;
+  font-family: proxima_novaregular,Arial,sans-serif;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
 
 .book.color-theme-3 .book-header {
   background: #fff;
