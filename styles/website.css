@@ -76,6 +76,7 @@ button {
 }
 
 .book.color-theme-3 .book-header {
+  margin-left: 10px;
   background: #fff;
   height: 65px;
   padding: 8px 0 0 80px;
