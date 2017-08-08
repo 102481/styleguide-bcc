@@ -55,8 +55,9 @@ button {
 
 .btn-primary-default {
   background: #106db2;
+  text-color: white;
   font-size: 18px;
-  font-family: proxima_novaregular,Arial,sans-serif;
+  font-family: Proxima Nova Semibold,Arial,sans-serif;
   border-radius: 5px;
   margin: 0px 5px;
 }
