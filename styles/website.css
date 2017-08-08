@@ -57,9 +57,11 @@ button {
   background: #106db2;
   color: white;
   font-size: 18px;
-  font-family: Proxima Nova Semibold,Arial,sans-serif;
+  font-family: 'Proxima Nova Semibold',Arial,sans-serif;
   border-radius: 5px;
   margin: 0px 5px;
+  box-shadow: 1px 1px 1px #C9C9C9;
+  padding: 10px 40px;
 }
 
 .book.color-theme-3 .book-header {
