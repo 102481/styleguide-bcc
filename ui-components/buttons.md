@@ -15,8 +15,8 @@ Primary
 <hr>
 
 ```
-<button class="btn-primary-default">Default</button>
-<button class="btn-primary-hover">Hover</button>
+<button class="btn-secondary-default">Default</button>
+<button class="btn-secondary-hover">Hover</button>
 ```
 
 <button class="btn-secondary-default">Default</button>
