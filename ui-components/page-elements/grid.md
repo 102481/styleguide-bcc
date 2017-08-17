@@ -1,26 +1,51 @@
-<!-- .container is main centered wrapper -->
-<div class="container">
+# Grid
 
-  <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="one column">One</div>
-    <div class="eleven columns">Eleven</div>
-  </div>
 
-  <!-- just use a number and class 'column' or 'columns' -->
-  <div class="row">
-    <div class="two columns">Two</div>
-    <div class="ten columns">Ten</div>
-  </div>
+/* Grid */
 
-  <!-- there are a few shorthand columns widths as well -->
-  <div class="row">
-    <div class="one-third column">1/3</div>
-    <div class="two-thirds column">2/3</div>
-  </div>
-  <div class="row">
-    <div class="one-half column">1/2</div>
-    <div class="one-half column">1/2</div>
-  </div>
+.column {
+  flex-basis: 100%;
+}
 
-</div>
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+  }
+  ._25 {
+    flex: 2.5;
+  }
+  ._5 {
+    flex: 5;
+  }
+}
+/* Style */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  color: #ccc;
+  background: #000;
+  margin-bottom: 70px;
+}
+
+.column {
+  padding: 15px;
+  border: 1px solid #666;
+  margin: 5px 0;
+  background: #343436;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
