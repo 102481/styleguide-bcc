@@ -1,241 +1,55 @@
 # Grid
 
 ```
-<h1>Easiest Flex Grid Ever</h1>
-<div class="row">
-  <div class="column">
-    100%
-  </div>
-</div>
 
-<div class="row">
-  <div class="column">
-    50%
-  </div>
-  <div class="column">
-    50%
-  </div>
-</div>
+/* Grid */
 
-<div class="row">
-  <div class="column">
-    33.3%
-  </div>
-  <div class="column">
-    33.3%
-  </div>
-  <div class="column">
-    33.3%
-  </div>
-</div>
+.column {
+  flex-basis: 100%;
+}
 
-<div class="row">
-  <div class="column">
-    25%
-  </div>
-  <div class="column">
-    25%
-  </div>
-  <div class="column">
-    25%
-  </div>
-  <div class="column">
-    25%
-  </div>
-</div>
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+  }
+  ._25 {
+    flex: 2.5;
+  }
+  ._5 {
+    flex: 5;
+  }
+}
+/* Style */
 
-<div class="row">
-  <div class="column">
-    20%
-  </div>
-  <div class="column">
-    20%
-  </div>
-  <div class="column">
-    20%
-  </div>
-  <div class="column">
-    20%
-  </div>
-  <div class="column">
-    20%
-  </div>
-</div>
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  color: #ccc;
+  background: #000;
+  margin-bottom: 70px;
+}
 
-<div class="row">
-  <div class="column">
-    16.6%
-  </div>
-  <div class="column">
-    16.6%
-  </div>
-  <div class="column">
-    16.6%
-  </div>
-  <div class="column">
-    16.6%
-  </div>
-  <div class="column">
-    16.6%
-  </div>
-  <div class="column">
-    16.6%
-  </div>
-</div>
+.column {
+  padding: 15px;
+  border: 1px solid #666;
+  margin: 5px 0;
+  background: #343436;
+}
 
-<div class="row">
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-  <div class="column">
-    14.2%
-  </div>
-</div>
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-<div class="row">
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-  <div class="column">
-    12.5%
-  </div>
-</div>
+h1,
+h2 {
+  text-align: center;
+}
 
-<div class="row">
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-  <div class="column">
-    11.1%
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-  <div class="column">
-    10%
-  </div>
-</div>
-
-<div class="row">
-  <div class="column _25">
-    Twenty-five Percent
-  </div>
-  <div class="column _75">
-    Seventy-five Percent
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <div class="row">
-      <div class="column">
-        Nested
-      </div>
-      <div class="column">
-        Nested
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    Nothing Nested
-  </div>
-</div>
-
-<h2>Contained Grid</h2>
-
-<main>
-  <div class="row">
-    <div class="column _25">
-      Twenty-five Percent
-    </div>
-    <div class="column _5">
-      Fifty Percent
-    </div>
-    <div class="column _25">
-      Twenty-five Percent
-    </div>
-  </div>
-</main>
 ```
 
