@@ -10,9 +10,9 @@ Council's commitment to web accessibility is covered in the [Access and Inclusio
 
 ## Accessibility requirements
 
-Keep the following points in mind when creating any digital content or files for our corporate site, 
+Keep the following points in mind when creating any digital content or files for our corporate site,
 
-| Guideline |  |
+| Guidelines |  |
 | :--- | :--- |
 | 1.1 Text Alternatives | Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. |
 | 1.2 Time-based Media | Provide alternatives for time-based media |
@@ -27,5 +27,5 @@ Keep the following points in mind when creating any digital content or files for
 | 3.3 Input Assistance | Help users avoid and correct mistakes. |
 | 4.1 Compatible | Maximize compatibility with current and future user agents, including assistive technologies. |
 
-The World Wide Web Consortium \(W3C\) have created a [more detailed version](https://www.w3.org/WAI/WCAG20/quickref/) of accessibility requirements for digital content. 
+The World Wide Web Consortium \(W3C\) have created a [more detailed version](https://www.w3.org/WAI/WCAG20/quickref/) of accessibility requirements for digital content.
 

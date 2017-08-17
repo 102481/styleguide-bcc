@@ -18,4 +18,6 @@
 * [Accessibility](ui-components/accessibility.md)
 * [Buttons](ui-components/buttons.md)
 * [Page elements ](ui-components/page-elements.md)
+  * [Promotional panel](ui-components/page-elements/promotional-panel.md)
+  * [Stackla feed](ui-components/page-elements/stackla-feed.md)
 
