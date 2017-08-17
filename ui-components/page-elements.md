@@ -1,8 +1,6 @@
 # Page elements
 
-## <!doctype html>
-<div>
-<title>Example</title>
+<div id="container">
 <style>
 .grid {
   display: grid;
@@ -73,11 +71,7 @@
   <div class="box">26</div>
   <div class="box">27</div>
   <div class="box">28</div>
-</main>
-</div>
-## 
- 
- Test 
+</main> 
 
 
 
