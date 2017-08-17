@@ -1,5 +1,6 @@
 # Grid
 
+```
 <h1>Easiest Flex Grid Ever</h1>
 <div class="row">
   <div class="column">
@@ -236,6 +237,5 @@
     </div>
   </div>
 </main>
-
-
+```
 
