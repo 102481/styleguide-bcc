@@ -1,6 +1,5 @@
 # Grid
 <!doctype html>
-<title>Example</title>
 <style>
   .grid {
     display: block;
@@ -13,7 +12,7 @@
     margin: 10px 0;
     text-align: center;
     }
-  @media screen and (min-width: 100px) {
+  @media screen and (max-width: 10000px) {
     .grid {
       display: grid;
       grid-template-rows: repeat(6, 1fr);
