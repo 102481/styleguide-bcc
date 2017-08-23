@@ -19,6 +19,7 @@
 * [Buttons](ui-components/buttons.md)
 * [Page elements ](ui-components/page-elements.md)
   * [Promotional panel](ui-components/page-elements/promotional-panel.md)
+  * [Grids](ui-components/page-elements/grids.md)
   * [Stackla feed](ui-components/page-elements/stackla-feed.md)
   * [Grid](ui-components/page-elements/grid.md)
 
