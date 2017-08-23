@@ -1,4 +1,9 @@
 # Grid
+
+The default grid system for our website is based on a responsive 12-column system. 
+
+Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.
+
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
