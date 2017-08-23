@@ -1,8 +1,8 @@
-# Grid
+## Grid
 
-<p>The default grid system for our website is based on a responsive 12-column system. </p> 
+<p data-key="57477"><span data-key="57476"><span data-offset-key="57476-0">The default grid system for our website is based on a responsive 12-column system.</span></span></p>
 
-<p> Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.</p>
+<p data-key="57477"><span data-key="57476"><span data-offset-key="57476-0">Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.</span></span></p>
 
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
