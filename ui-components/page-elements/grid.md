@@ -1,13 +1,10 @@
 ## Grid
 
-<p class="comments-section">The default grid system for our website is based on a responsive 12-column system.</p>
 
-<p class="comments-section">Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.</p>
+<p>The default grid system for our website is based on a responsive 12-column system.</p>
 
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+<p>Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.</p>
+
 
 <div class="w3-container">
 </div>
@@ -51,6 +48,5 @@
 </div>
 </div>
 
-</body>
-</html>  
+  
 
