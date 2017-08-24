@@ -22,6 +22,5 @@
   * [Grids](ui-components/page-elements/grids.md)
 * [Buttons](ui-components/buttons.md)
 * [Labels](ui-components/labels.md)
-* Tables
-* [Alerts](ui-components/alerts.md)
+* [Tables](ui-components/tables.md)
 
