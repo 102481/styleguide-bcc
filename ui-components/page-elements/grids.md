@@ -4,45 +4,75 @@ The default grid system for our website is based on a responsive 12-column syste
 
 Our different column sizes automatically change dimensions once they reach certain breakpoints. To illustrate, resize your browser window and you will see the grid columns below change size.
 
-<div class="w3-container">
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing:border-box;
+}
+.gridwrapper {
+    overflow:auto;
+    position:relative;
+    height:250px;
+}
+.gridcontent {
+    width:8.33%;
+    margin:0;
+    border-right:1px solid grey;
+    height:100%;
+    float:left;
+    background-color:#84c754;
+    background-color:#f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<div style="position:absolute;opacity:0.9;width:auto;left:8px;right:10px;">
+<div class="gridcontainer">
+<div class="gridwrapper" style="height:90px;">
+<div class="gridcontent" style="width:100%;background:#9933cc;border-right-color:transparent;">
+</div>
+</div>
+<div class="gridwrapper" style="height:230px;">
+  <div class="gridcontent" style="background-color:#ffffff;border:none;width:25%;padding-top:15px;">
+    <div style="background-color:#33b5e5;border:none;width:100%;height:15%;margin-bottom:10px;"></div>
+    <div style="background-color:#33b5e5;border:none;width:100%;height:15%;margin-bottom:10px;"></div>
+    <div style="background-color:#33b5e5;border:none;width:100%;height:15%;margin-bottom:10px;"></div>
+    <div style="background-color:#33b5e5;border:none;width:100%;height:15%;"></div>
+  </div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border:none;width:25%;padding-top:15px;">
+    <div style="background-color:#33b5e5;border:none;width:100%;height:92%;"></div>
+  </div>
+</div>
+<div class="gridwrapper" style="height:50px;">
+  <div class="gridcontent" style="width:100%;background:#0099cc;border-right-color:transparent;">
+  </div>
 </div>
 
-<div class="w3-border">
-
-<div class="w3-row">
-<div class="w3-col m1 w3-center w3-grey">1</div>
-<div class="w3-col m1 w3-center">2</div>
-<div class="w3-col m1 w3-center w3-grey">3</div>
-<div class="w3-col m1 w3-center">4</div>
-<div class="w3-col m1 w3-center w3-grey">5</div>
-<div class="w3-col m1 w3-center">6</div>
-<div class="w3-col m1 w3-center w3-grey">7</div>
-<div class="w3-col m1 w3-center">8</div>
-<div class="w3-col m1 w3-center w3-grey">9</div>
-<div class="w3-col m1 w3-center">10</div>
-<div class="w3-col m1 w3-center w3-grey">11</div>
-<div class="w3-col m1 w3-center">12</div>
 </div>
-<div class="w3-row">
-<div class="w3-col w3-container m4 l3 w3-blue" style="height:230px">
 </div>
-<div class="w3-col m8 l9 w3-container w3-green" style="height:230px">    
+<div class="gridcontainer" style="opacity:0.1;">
+<div class="gridwrapper" style="height:370px;">
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;border-left:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
+  <div class="gridcontent" style="background-color:#ffffff;border-right:1px solid #000000;"></div>
 </div>
 </div>
 
-<div class="w3-row">
-<div class="w3-col m1 w3-center w3-grey">1</div>
-<div class="w3-col m1 w3-center">2</div>
-<div class="w3-col m1 w3-center w3-grey">3</div>
-<div class="w3-col m1 w3-center">4</div>
-<div class="w3-col m1 w3-center w3-grey">5</div>
-<div class="w3-col m1 w3-center">6</div>
-<div class="w3-col m1 w3-center w3-grey">7</div>
-<div class="w3-col m1 w3-center">8</div>
-<div class="w3-col m1 w3-center w3-grey">9</div>
-<div class="w3-col m1 w3-center">10</div>
-<div class="w3-col m1 w3-center w3-grey">11</div>
-<div class="w3-col m1 w3-center">12</div>
-</div>
-</div>
-
+</body></html>
