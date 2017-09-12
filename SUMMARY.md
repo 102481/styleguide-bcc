@@ -4,10 +4,6 @@
 
 * [Introduction](README.md)
 
-## Methods
-
-* [Defining Methods](methods.md)
-
 ## UI components
 
 * [Forms](forms.md)
