@@ -39,10 +39,21 @@ A dropdown allows users to select one option from a list.
 ## Checkboxes
 Checkboxes allow users to select one or more options from a visible list.
 
+```
+<input type="checkbox" id="edit-submitted-what-are-you-reporting-choose-all-appropriate-1" value="damaged_surface" class="form-checkbox">
+<label class="option" for="edit-submitted-what-are-you-reporting-choose-all-appropriate-1">Damaged surface </label>
+```
+
 ## Radio Buttons
+```
+<input required="required" type="radio" value="yes" class="form-radio"><label class="option">Yes</label>
+```
 
 ## Date Input
 
 ## Attachments
-
+File attachment input
+```
+<input type="file" id="edit-submitted-attach-a-photo-optional-upload" name="files[submitted_attach_a_photo_optional]" size="22" class="form-file">
+```
 ## Form elements
