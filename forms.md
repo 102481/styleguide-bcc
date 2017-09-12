@@ -17,6 +17,8 @@ Text inputs allow people to enter any combination of letters, numbers, or symbol
 
 ###Text input error
 
+###Text Area
+
 
 ## Dropdown
 A dropdown allows users to select one option from a list.
