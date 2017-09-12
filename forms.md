@@ -14,10 +14,17 @@ maxlength="128" class="form-text required">
 <input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required">
 
 ###Active text input label
+<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required focus">
 
 ###Text input error
+<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required error">
+
+
 
 ###Text Area
+<textarea cols="60" rows="5" class="form-textarea">
+</textarea>
+<div class="grippie"></div>
 
 
 ## Dropdown
@@ -41,7 +48,7 @@ Checkboxes allow users to select one or more options from a visible list.
 
 ```
 <input type="checkbox" id="edit-submitted-what-are-you-reporting-choose-all-appropriate-1" value="damaged_surface" class="form-checkbox">
-<label class="option" for="edit-submitted-what-are-you-reporting-choose-all-appropriate-1">Damaged surface </label>
+<label class="option" for="edit-submitted-what-are-you-reporting-choose-all-appropriate-1">Damaged surface </label>
 ```
 
 ## Radio Buttons
