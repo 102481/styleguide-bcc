@@ -1,5 +1,7 @@
 # Forms
-Council's corporate website has the capacity to build and host online forms. These forms are fully compliant with Council's accessibility commitments (WCAG 2.0 AA) and are fully mobile responsive. These forms offer a full array of modern online form features, including conditional logic. 
+Council's corporate website has the capacity to build and host online forms. These forms are fully compliant with Council's accessibility commitments (WCAG 2.0 AA) and are fully mobile responsive. 
+
+These forms offer a full array of modern online form features, including conditional logic. 
 
 ## Text Input
 Text inputs allow people to enter any combination of letters, numbers, or symbols of their choosing (unless otherwise restricted). Text input boxes can span single or multiple lines.
@@ -11,13 +13,13 @@ id="edit-submitted-incident-street-address" value="" size="60"
 maxlength="128" class="form-text required">
 ```
 
-<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required">
+<input type="text" value="" size="60" maxlength="128" class="form-text required">
 
 ###Active text input label
-<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required focus">
+<input type="text" value="" size="60" maxlength="128" class="form-text required focus">
 
 ###Text input error
-<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required error">
+<input type="text" value="" size="60" maxlength="128" class="form-text required error">
 
 
 
@@ -48,7 +50,8 @@ Checkboxes allow users to select one or more options from a visible list.
 
 ```
 <input type="checkbox" id="edit-submitted-what-are-you-reporting-choose-all-appropriate-1" value="damaged_surface" class="form-checkbox">
-<label class="option" for="edit-submitted-what-are-you-reporting-choose-all-appropriate-1">Damaged surface </label>
+<label class="option" for="edit-submitted-what-are-you-reporting-choose-all-appropriate-1">Damaged surface </label>
+
 ```
 
 ## Radio Buttons
