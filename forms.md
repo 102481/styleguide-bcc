@@ -6,10 +6,12 @@ Text inputs allow people to enter any combination of letters, numbers, or symbol
 
 ###Text input label
 ```
-<input required="required" type="text" id="edit-submitted-incident-street-address" name="submitted[incident_street_address]" value="" size="60" maxlength="128" class="form-text required">
+<input required="required" type="text" 
+id="edit-submitted-incident-street-address" value="" size="60" 
+maxlength="128" class="form-text required">
 ```
 
-<input required="required" type="text" id="edit-submitted-incident-street-address" name="submitted[incident_street_address]" value="" size="60" maxlength="128" class="form-text required">
+<input required="required" type="text" id="edit-submitted-incident-street-address" value="" size="60" maxlength="128" class="form-text required">
 
 ###Active text input label
 
