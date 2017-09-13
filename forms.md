@@ -21,8 +21,6 @@ maxlength="128" class="form-text required">
 ###Text input error
 <input type="text" value="" size="60" maxlength="128" class="form-text error">
 
-
-
 ###Text Area
 <textarea cols="60" rows="5" class="form-textarea">
 </textarea>
