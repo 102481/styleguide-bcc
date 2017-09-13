@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15896b5-8d2b-4d9b-bf1e-6929f3ea7c30" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/calendar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms.md" afterPath="$PROJECT_DIR$/forms.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/website.css" afterPath="$PROJECT_DIR$/styles/website.css" />
     </list>
     <ignored path="brisbane-city-council-digital-standards-guide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +39,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="603">
-                <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+                <caret line="102" column="21" lean-forward="true" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -69,8 +69,8 @@
         <option value="$PROJECT_DIR$/ui-components/buttons.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ui-components/textfield.md" />
-        <option value="$PROJECT_DIR$/forms.md" />
         <option value="$PROJECT_DIR$/styles/website.css" />
+        <option value="$PROJECT_DIR$/forms.md" />
       </list>
     </option>
   </component>
@@ -109,11 +109,6 @@
             <path>
               <item name="brisbane-city-council-digital-standards-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="brisbane-city-council-digital-standards-guide" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="brisbane-city-council-digital-standards-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brisbane-city-council-digital-standards-guide" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brisbane-city-council-digital-standards-guide" type="b2602c69:ProjectViewProjectNode" />
@@ -242,12 +237,12 @@
       <workItem from="1502154647970" duration="7354000" />
       <workItem from="1502667824420" duration="16000" />
       <workItem from="1504134452940" duration="1542000" />
-      <workItem from="1505198022008" duration="10038000" />
+      <workItem from="1505198022008" duration="10502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44400000" />
+    <option name="totallyTimeSpent" value="44864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="957" y="23" width="1456" height="1288" extended-state="0" />
@@ -696,7 +691,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="603">
-            <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+            <caret line="102" column="21" lean-forward="true" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />

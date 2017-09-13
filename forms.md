@@ -64,8 +64,8 @@ Checkboxes allow users to select one or more options from a visible list.
 ## Radio Buttons
 ```
 <input type="radio" value="yes" class="form-radio">
-<label class="option">Yes</label>
-<input type="radio" value="no" class="form-radio">
+   <label class="option">Yes</label>
+   <input type="radio" value="no" class="form-radio">
 <label class="option">No</label>
 
 ```
@@ -79,6 +79,25 @@ Checkboxes allow users to select one or more options from a visible list.
 </div>
 
 ## Date Input
+<div class="form-item">
+   <select class="day form-select">
+   <option selected="Day">Day</option>
+   /select>
+</div>
+
+<div class="form-item">
+   <select class="month form-select">
+   <option selected="Month">Month</option>
+   /select>
+</div>
+
+<div class="form-item">
+   <select class="year form-select">
+   <option selected="Year">Year</option>
+   /select>
+</div>
+
+<input type="image" aria-hidden="true" src="/misc/calendar.png">
 
 ## Attachments
 File attachment input
