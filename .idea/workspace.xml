@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15896b5-8d2b-4d9b-bf1e-6929f3ea7c30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/website.css" afterPath="$PROJECT_DIR$/styles/website.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="brisbane-city-council-digital-standards-guide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="website.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/website.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="231" column="27" lean-forward="false" selection-start-line="231" selection-start-column="27" selection-end-line="231" selection-end-column="27" />
+            <state relative-caret-position="616">
+              <caret line="238" column="20" lean-forward="true" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="435">
-                <caret line="111" column="27" lean-forward="true" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="43" />
+                <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -238,12 +238,12 @@
       <workItem from="1502154647970" duration="7354000" />
       <workItem from="1502667824420" duration="16000" />
       <workItem from="1504134452940" duration="1542000" />
-      <workItem from="1505198022008" duration="12892000" />
+      <workItem from="1505198022008" duration="13112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47254000" />
+    <option name="totallyTimeSpent" value="47474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1102" y="23" width="1456" height="1288" extended-state="0" />
@@ -684,7 +684,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="435">
-            <caret line="111" column="27" lean-forward="true" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="43" />
+            <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
@@ -693,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/website.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="231" column="27" lean-forward="false" selection-start-line="231" selection-start-column="27" selection-end-line="231" selection-end-column="27" />
+        <state relative-caret-position="616">
+          <caret line="238" column="20" lean-forward="true" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
           <folding />
         </state>
       </provider>
