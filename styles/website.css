@@ -158,6 +158,15 @@ button {
   font-size: 125%;
 }
 
+.grippie {
+  background: #eee url(https:brisbane.qld.gov.au/misc/grippie.png) no-repeat center 2px;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  cursor: s-resize;
+  height: 9px;
+  overflow: hidden;
+}
+
 .form-text input.error {
   border: 1px solid #c00;
 }
