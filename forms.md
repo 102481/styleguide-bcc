@@ -44,6 +44,15 @@ A dropdown allows users to select one option from a list.
     <option value="Rabbit">Rabbit</option>    
 </select>
 ```
+<select class="form-select">
+    <option value="" selected="selected">- Select -</option>
+    <option value="Cat">Feral Cat</option>
+    <option value="Dog">Wild Dog</option>
+    <option value="Fox">European red fox</option>
+    <option value="Deer">Feral deer</option>
+    <option value="Rabbit">Rabbit</option>    
+</select>
+
 
 ## Checkboxes
 Checkboxes allow users to select one or more options from a visible list.
