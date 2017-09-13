@@ -58,14 +58,15 @@ Checkboxes allow users to select one or more options from a visible list.
 <label class="option">Damaged surface </label>
 
 ```
-<input type="checkbox" value="damaged_surface" class="form-checkbox">
-<label class="option">Damaged surface </label>
+<input type="checkbox" value="damaged_surface" class="form-checkbox"> <label class="option">Damaged surface </label>
 
 
 ## Radio Buttons
 ```
-<input required="required" type="radio" value="yes" class="form-radio"><label class="option">Yes</label>
-<input required="required" type="radio" value="no" class="form-radio"><label class="option">No</label>
+<input type="radio" value="yes" class="form-radio">
+<label class="option">Yes</label>
+<input type="radio" value="no" class="form-radio">
+<label class="option">No</label>
 
 ```
 
@@ -74,8 +75,8 @@ Checkboxes allow users to select one or more options from a visible list.
 ## Attachments
 File attachment input
 ```
-<input type="file" name="files[submitted_attach_a_photo_optional]" size="22" class="form-file">
+<input type="file" size="22" class="form-file">
 ```
-<input type="file" name="files[submitted_attach_a_photo_optional]" size="22" class="form-file">
+<input type="file" size="22" class="form-file">
 
 ## Form elements
