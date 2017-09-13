@@ -162,12 +162,13 @@ button {
 }
 
 .grippie {
-  background: #eee url(https://brisbane.qld.gov.au/misc/grippie.png) no-repeat center 2px;
+  background: #eee url(/misc/grippie.png) no-repeat center 2px;
   border: 1px solid #ddd;
   border-top-width: 0;
   cursor: s-resize;
   height: 9px;
   overflow: hidden;
+  width: 70%;
 }
 
 .form-text input.error {
