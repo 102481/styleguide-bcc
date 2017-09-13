@@ -171,7 +171,7 @@ button {
   width: 70%;
 }
 
-.select {
+.form-select {
   display: inline-block;
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 3px #ddd;
@@ -187,6 +187,14 @@ button {
   border: 1px solid #c00;
 }
 
+.form-item {
+  display: block;
+  padding: 0 .25em;
+  border: 0;
+  width: auto;
+}
+}
+
 .error {
   background-color: #fef5f1;
   border: 1px solid #c00;
@@ -200,4 +208,14 @@ button {
   padding: 12px 0 0 10px;
   margin-top: 0;
   height: 65px;
+}
+
+label.option {
+  clear: right;
+  display: inline-block;
+  vertical-align: top;
+  padding: .25em;
+  width: 92%;
+  padding: 0 0 .25em .5em;
+  color: #333;
 }
