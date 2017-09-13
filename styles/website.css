@@ -207,6 +207,12 @@ select, label {
   outline: -webkit-focus-ring-color auto 5px;
 }
 
+.form-submit {
+  background: #106db2;
+  color: white;
+  box-shadow: 1px 1px 1px #C9C9C9;
+}
+
 #book-search-input {
   padding: 12px 0 0 10px;
   margin-top: 0;

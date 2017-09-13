@@ -76,8 +76,8 @@ Checkboxes allow users to select one or more options from a visible list.
 ## Radio Buttons
 ```
 <input type="radio" value="yes" class="form-radio">
-   <label class="option">Yes</label>
-   <input type="radio" value="no" class="form-radio">
+<label class="option">Yes</label>
+<input type="radio" value="no" class="form-radio">
 <label class="option">No</label>
 
 ```
