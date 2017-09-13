@@ -228,6 +228,10 @@ select, label {
   height: auto;
 }
 
+.form-submit:hover {
+  background-color: #ffd200;
+}
+
 .webform-calendar {
   width: 25px;
 }
