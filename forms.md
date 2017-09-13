@@ -118,6 +118,6 @@ File attachment input
 <input type="submit" value="Upload" class="form-submit">
 ```
 <input type="file" size="22" class="form-file">
-<input type="submit" value="Upload" class="form-submit">
+<input type="submit" value="Upload" class=".btn-secondary-default form-submit">
 
 ## Form elements
