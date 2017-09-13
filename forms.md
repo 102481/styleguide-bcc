@@ -58,7 +58,7 @@ Checkboxes allow users to select one or more options from a visible list.
 <label class="option">Damaged surface </label>
 
 ```
-<input type="checkbox" value="damaged_surface" class="form-checkbox"> <label class="option">Damaged surface </label>
+<input type="checkbox" value="damaged_surface" class="form-checkbox"> <label class="option">Damaged surface</label>
 
 
 ## Radio Buttons
