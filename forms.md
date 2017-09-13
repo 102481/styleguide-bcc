@@ -86,5 +86,6 @@ File attachment input
 <input type="file" size="22" class="form-file">
 ```
 <input type="file" size="22" class="form-file">
+<input type="submit" class="form-submit">
 
 ## Form elements

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b15896b5-8d2b-4d9b-bf1e-6929f3ea7c30" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms.md" afterPath="$PROJECT_DIR$/forms.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/website.css" afterPath="$PROJECT_DIR$/styles/website.css" />
     </list>
     <ignored path="brisbane-city-council-digital-standards-guide.iws" />
@@ -23,22 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="website.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="website.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/website.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="714">
+              <caret line="229" column="17" lean-forward="true" selection-start-line="229" selection-start-column="17" selection-end-line="229" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forms.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="32">
-                <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+              <first_editor relative-caret-position="603">
+                <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,6 +52,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>copy</find>
+      <find>select</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,12 +242,12 @@
       <workItem from="1502154647970" duration="7354000" />
       <workItem from="1502667824420" duration="16000" />
       <workItem from="1504134452940" duration="1542000" />
-      <workItem from="1505198022008" duration="9450000" />
+      <workItem from="1505198022008" duration="10038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43812000" />
+    <option name="totallyTimeSpent" value="44400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="957" y="23" width="1456" height="1288" extended-state="0" />
@@ -682,22 +684,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="32">
-            <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/styles/website.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="229" column="17" lean-forward="true" selection-start-line="229" selection-start-column="17" selection-end-line="229" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/website.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/forms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="603">
+            <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
