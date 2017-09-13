@@ -94,19 +94,19 @@ Checkboxes allow users to select one or more options from a visible list.
 <div class="form-item form-type-select">
    <select class="day form-select">
    <option selected="Day">Day</option>
-   /select>
+   </select>
 </div>
 
 <div class="form-item form-type-select">
    <select class="month form-select">
    <option selected="Month">Month</option>
-   /select>
+   </select>
 </div>
 
 <div class="form-item form-type-select">
    <select class="year form-select">
    <option selected="Year">Year</option>
-   /select>
+   </select>
 </div>
 
 <input type="image" class="webform-calendar" aria-hidden="true" src="misc/calendar.png">
