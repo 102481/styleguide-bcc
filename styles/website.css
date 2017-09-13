@@ -198,6 +198,12 @@ select, label {
   width: auto;
 }
 
+.form-type-select {
+  display: inline-block;
+  margin: 0em 0em 0.5em;
+  width: auto;
+}
+
 .error {
   background-color: #fef5f1;
   border: 1px solid #c00;

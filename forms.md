@@ -91,19 +91,19 @@ Checkboxes allow users to select one or more options from a visible list.
 </div>
 
 ## Date Input
-<div class="form-item">
+<div class="form-item form-type-select">
    <select class="day form-select">
    <option selected="Day">Day</option>
    /select>
 </div>
 
-<div class="form-item">
+<div class="form-item form-type-select">
    <select class="month form-select">
    <option selected="Month">Month</option>
    /select>
 </div>
 
-<div class="form-item">
+<div class="form-item form-type-select">
    <select class="year form-select">
    <option selected="Year">Year</option>
    /select>
