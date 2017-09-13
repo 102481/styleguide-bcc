@@ -109,7 +109,7 @@ Checkboxes allow users to select one or more options from a visible list.
    /select>
 </div>
 
-<input type="image" aria-hidden="true" src="misc/calendar.png">
+<input type="image" class="webform-calendar" aria-hidden="true" src="misc/calendar.png">
 
 ## Attachments
 File attachment input
