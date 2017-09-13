@@ -13,13 +13,13 @@ id="edit-submitted-incident-street-address" value="" size="60"
 maxlength="128" class="form-text required">
 ```
 
-<input type="text" value="" size="60" maxlength="128" class="form-text required">
+<input type="text" value="" size="60" maxlength="128" class="form-text">
 
 ###Active text input label
-<input type="text" value="" size="60" maxlength="128" class="form-text required focus">
+<input type="text" value="" size="60" maxlength="128" class="form-text focus">
 
 ###Text input error
-<input type="text" value="" size="60" maxlength="128" class="form-text required error">
+<input type="text" value="" size="60" maxlength="128" class="form-text error">
 
 
 

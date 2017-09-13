@@ -150,11 +150,11 @@ button {
 .form-text input.error {
   border: 1px solid #c00;
 }
-.form-text .error {
+.error {
   background-color: #fef5f1;
 }
 
-.form-text .focus {
+.focus {
   outline: -webkit-focus-ring-color auto 5px;
 }
 
