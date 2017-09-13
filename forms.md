@@ -55,11 +55,23 @@ Checkboxes allow users to select one or more options from a visible list.
 
 ```
 <input type="checkbox" value="damaged_surface" class="form-checkbox">
-<label class="option">Damaged surface </label>
+<label class="option">Damaged surface</label>
+<input type="checkbox" value="eroded_path" class="form-checkbox">
+<label class="option">Eroded path</label>
+<input type="checkbox" value="overgrown_grass" class="form-checkbox">
+<label class="option">Overgrown grass</label>
+<input type="checkbox" value="rubbish" class="form-checkbox">
+<label class="option">Rubbish</label>
 
 ```
-<input type="checkbox" value="damaged_surface" class="form-checkbox"> <label class="option">Damaged surface</label>
-
+<input type="checkbox" value="damaged_surface" class="form-checkbox">
+<label class="option">Damaged surface</label>
+<input type="checkbox" value="eroded_path" class="form-checkbox">
+<label class="option">Eroded path</label>
+<input type="checkbox" value="overgrown_grass" class="form-checkbox">
+<label class="option">Overgrown grass</label>
+<input type="checkbox" value="rubbish" class="form-checkbox">
+<label class="option">Rubbish</label>
 
 ## Radio Buttons
 ```
