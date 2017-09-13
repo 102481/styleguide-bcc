@@ -82,11 +82,11 @@ Checkboxes allow users to select one or more options from a visible list.
 
 ```
 <div class="form-item">
-<input type="radio" value="yes" class="form-radio">
+<input type="radio" value="yes" name="submitted" class="form-radio">
 <label class="option">Yes</label>
 </div>
 <div class="form-item">
-<input type="radio" value="no" class="form-radio">
+<input type="radio" value="no" name="submitted" class="form-radio">
 <label class="option">No</label>
 </div>
 
@@ -119,5 +119,3 @@ File attachment input
 ```
 <input type="file" size="22" class="form-file">
 <input type="submit" value="Upload" class="form-submit">
-
-## Form elements

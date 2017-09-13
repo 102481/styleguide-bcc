@@ -213,6 +213,10 @@ select, label {
 }
 
 .form-submit {
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
   background: #106db2;
   color: white;
   box-shadow: 1px 1px 1px #C9C9C9;
