@@ -1,14 +1,16 @@
 {
   "plugins": [
     "theme-api",
-    "styles-sass",
+    "styles-sass-fix",
     "custom-favicon",
-    "copy-code-button"
+    "copy-code-button",
+    "codetabs"
   ],
+  "styles": {
+    "website": "./styles/website.scss"
+  },
   "pluginsConfig": {
-    "styles": {
-      "website": "./styles/website.scss"
-    },
+
     "theme-api": {
       "theme": "dark",
       "languages": [

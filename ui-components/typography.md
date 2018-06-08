@@ -8,31 +8,37 @@ Consistent typefaces \(fonts\) used across Council's digital channels is part of
 
 PC/desktop typefaces \(fonts\) have been created and optimised specifically for use on websites, using CSS.
 
-### Open Sans
-
-This font is used for body copy/paragraphs.
-
-![](/assets/typography-open-sans.png)
-
-This font uses the following code:
-
-```css
-font-family: open-sans, sans-serif;
-font-weight: normal;
-```
-
-### Proxima Nova
+### Proxima Nova \(headings\)
 
 This font is used for headings/titles.
 
-![](/assets/typography-promixa-nova.png)
+<p id="proxima-nova-example">Proxima Nova AaBbCcDdEeFfGgHhIiJjKkLl</p>
 
-This font uses the following code:
+This font has two weights available, and uses the following code:
 
-```css
-font-family: proxima-nova, sans-serif;
-font-weight: normal;
-```
+{% codetabs name="SASS", type="scss" -%}
+font-family: $proxima-nova;
+font-weight: normal / $semibold;
+{%- language name="CSS", type="css" -%}
+font-family: ProximaNova, Arial, sans-serif;
+font-weight: normal / 600;
+{%- endcodetabs %}
+
+### Open Sans \(body\)
+
+This font is used for body copy/paragraphs.
+
+<p id="open-sans-example">Open Sans AaBbCcDdEeFfGgHhIiJjKkLl</p>
+
+This font has four weights available, and uses the following code:
+
+{% codetabs name="SASS", type="scss" -%}
+font-family: $open-sans;
+font-weight: normal / $semibold / bold / $extrabold;
+{%- language name="CSS", type="css" -%}
+font-family: OpenSans, Arial, sans-serif;
+font-weight: normal / 600 / bold / 900;
+{%- endcodetabs %}
 
 ---
 
@@ -42,74 +48,116 @@ To help users gain a sense of Brisbane City Council's content at a glance we hav
 
 # Heading 1 example
 
-```css
-font-family: ‘proxima_novaregular, Arial, sans-serif;’
-font-weight: 400;
-font-size: 31px;
-line-height: 46px;
-color: #106db2;
-```
+{% codetabs name="HTML", type="html" -%}
+<h1>Heading 1 example</h1>
+{% language name="SASS", type="scss" -%}
+h1 {
+  font-family: $proxima-nova;
+  font-weight: normal;
+  font-size: $h1-font-size;
+  line-height: 1.5em;
+  color: $blue;
+}
+{%- language name="CSS", type="css" -%}
+h1 {
+  font-family: ProximaNova, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  color: #106db2;
+}
+{%- endcodetabs %}
 
 _Tip: There should only be one H1 heading per page._
 
 ## Heading 2 example
 
-```css
-font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 400;
-font-size: 26px;
-line-height: 39px;
-color: #106db2;
-```
+{% codetabs name="HTML", type="html" -%}
+<h1>Heading 2 example</h1>
+{% language name="SASS", type="scss" -%}
+h2 {
+  font-family: $proxima-nova;
+  font-weight: normal;
+  font-size: $h2-font-size;
+  line-height: 1.5em;
+  color: $blue;
+}
+{%- language name="CSS", type="css" -%}
+h2 {
+  font-family: ProximaNova, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.87rem;
+  line-height: 1.5em;
+  color: #106db2;
+}
+{%- endcodetabs %}
 
 _Tip: Use subheadings \(H2 and H3 etc.\) to break up the text and explain what each section of information is about._
 
 ### Heading 3 example
 
-```css
-font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 400;
-font-size: 22px;
-line-height: 32px;
-color: #106db2;
-```
+{% codetabs name="HTML", type="html" -%}
+<h1>Heading 3 example</h1>
+{% language name="SASS", type="scss" -%}
+h3 {
+  font-family: $proxima-nova;
+  font-weight: normal;
+  font-size: $h3-font-size;
+  line-height: 1.5em;
+  color: $blue;
+}
+{%- language name="CSS", type="css" -%}
+h3 {
+  font-family: ProximaNova, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.54rem;
+  line-height: 1.5em;
+  color: #106db2;
+}
+{%- endcodetabs %}
 
 #### Heading 4 example
 
-```css
-font-family: proxima_novaregular,Arial,sans-serif;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-color: #106db2;
-```
+{% codetabs name="HTML", type="html" -%}
+<h1>Heading 4 example</h1>
+{% language name="SASS", type="scss" -%}
+h4 {
+  font-family: $proxima-nova;
+  font-weight: normal;
+  font-size: $h4-font-size;
+  line-height: 1.5em;
+  color: $blue;
+}
+{%- language name="CSS", type="css" -%}
+h4 {
+  font-family: ProximaNova, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.43rem;
+  line-height: 1.5em;
+  color: #106db2;
+}
+{%- endcodetabs %}
 
 Body copy \(paragraph\) example
 
-```css
-font-family: OpenSansRegular,Arial,sans-serif;
-font-weight: 400; 
-font-size: 14px;
-line-height: 22px;
-color: #333333;
-```
+{% codetabs name="HTML", type="html" -%}
+<h1>Body copy (paragraph) example</h1>
+{% language name="SASS", type="scss" -%}
+p {
+  font-family: $open-sans;
+  font-weight: normal;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $body-text;
+}
+{%- language name="CSS", type="css" -%}
+p {
+  font-family: OpenSans, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+{%- endcodetabs %}
 
 _Tip: To make long sections of text easier to read, divide the content into logical paragraphs._
-
-**&lt;/&gt; Source**
-
-```html
-<h1>Heading 1 example</h1>
-<h2>Heading 2 example</h2>
-<h3>Heading 3 example</h3>
-<h4>Heading 4 example</h4>
-<h5>Heading 5 example</h5>
-<h6>Heading 6 example</h6>
-
-<p>Body copy (paragraph) example</p>
-```
-
-  
-  
-
-

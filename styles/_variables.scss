@@ -1,0 +1,91 @@
+// Fonts.
+$arial:               Arial, sans-serif;
+$open-sans:           OpenSans, $arial;
+$proxima-nova:        ProximaNova, $arial;
+
+// Extra weights for fonts.
+$semibold: 600;
+$extrabold: 900;
+
+$header-font-family:  $proxima-nova;
+$font-body:           $open-sans;
+$font-monospace:      sans-serif;
+
+// The variable used by normalize to set the font family on the html element.
+$base-font-family:    $font-body;
+
+$base-font-size:      14px; // The font size set on the root html element.
+$base-line-height:    22px; // ~ $base-font-size * 1.6; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size:        2.2rem;
+$h2-font-size:        $h1-font-size * .85;
+$h3-font-size:        $h1-font-size * .7;
+$h4-font-size:        $h1-font-size * .65;
+$h5-font-size:        $h1-font-size * .6;
+
+
+// Primary colours.
+$blue: #106db2;
+$yellow: #ffd200;
+
+// Secondary colours.
+$green: #00a94f;
+
+// Other colours.
+$dark-blue: darken($blue, 10%);
+$footer-blue: #13589a;
+$gold: #ebc822;
+$grey: #f5f9fa;
+$grey2: #a4a4a4;
+$grey3: #dedede;
+$grey4: #f3f3f3;
+$grey5: #efefef;
+$grey-bg: #cecfcf;
+$dark-gray: #3e3e3e;
+$bcc-blue-default: #106db2;
+$red-orange: rgba(157, 40, 0, 0.7);
+$bcc-button-blue: #2476ba;
+$red-status: #e80029;
+$blue-status: #0678CA;
+$bcc-gradient-start: 0%;
+$bcc-gradient-end: 90%;
+$background-grey: $grey5;
+
+$body-text: #333333;
+$body-text2: #333333;
+$input-text: $body-text;
+/* https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Placeholder_Research#Placeholder_text */
+$placeholder-text: #777;
+
+$link-color: $blue;
+
+$error-color: #a94442;
+$ok-color: #3c763d;
+
+// Breakpoints.
+$bp-header-small-medium: 580px;
+$promo-small: 443px;
+$promo-medium: 2 * $promo-small;
+
+/* Sizes */
+$max-page-width: 1900px;
+$split-view-width: 1280px;
+$map-height: 1000px;
+
+$mobile: 450px;
+$tablet: 999px;
+
+$small: 400px;
+$medium-small: 500px;
+$medium: 650px;
+$large: 999px;
+$x-large: 1200px;
+$xx-large: 1600px;
+
+// Tab styling.
+$tabs-container-bg: #fff;
+$tabs-border: #bbb;
+
+// Form styling.
+$input-height: 25px;
+$input-vpadding: 2px;
