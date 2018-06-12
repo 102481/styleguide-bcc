@@ -1,0 +1,22 @@
+// Body & base styles.
+html {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: normal;
+  color: $body-text;
+}
+
+// Headings.
+h1 { @extend %bcc-h1; }
+h2 { @extend %bcc-h2; }
+h3 { @extend %bcc-h3; }
+h4 { @extend %bcc-h4; }
+h5 { @extend %bcc-h5; }
+
+// Anchor tag.
+a { @extend %bcc-anchor; }
+
+// Buttons.
+.bcc-button-default { @extend %bcc-button-default; }
+.bcc-button-large   { @extend %bcc-button-large; }
+.bcc-button-chevron { @extend %bcc-button-chevron; }

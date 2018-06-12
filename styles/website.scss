@@ -1,13 +1,12 @@
-@import "variables";
-@import "fonts";
+@import "vendor/bcc-sass-framework/init";
 
-@import "ui-components/typography";
+@import "basic-styles/typography";
+@import "basic-styles/colours";
+@import "basic-styles/grids";
+
+@import "ui-components/buttons";
 
 // General styles
-
-html {
-  font-size: $base-font-size;
-}
 
 .book.font-size-2 .book-body .page-inner section {
   font-size: 1rem;
@@ -15,38 +14,68 @@ html {
 
 // Book header
 
-.book.color-theme-3 .book-header {
-  background: #fff;
-  height: 65px;
-  padding: 8px 0 0 80px;
-  background-image: url(https://www.brisbane.qld.gov.au/sites/all/themes/custom/bcc_theme/logo.png);
-  background-repeat: no-repeat;
-  background-size: 50px 50px;
-  background-position: 15px;
+.book {
+  font-family: $body-font !important;
 
-  &:before {
-    width: 7px;
-    height: 100%;
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
-    background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
-    background-size: 100% 26px;
+  &.color-theme-3 {
+    .book-header {
+      background: #fff;
+      height: 65px;
+      padding: 8px 0 0 80px;
+      background-image: url(https://www.brisbane.qld.gov.au/sites/all/themes/custom/bcc_theme/logo.png);
+      background-repeat: no-repeat;
+      background-size: 50px 50px;
+      background-position: 15px;
+
+      &:before {
+        width: 7px;
+        height: 100%;
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: -webkit-linear-gradient(top,#106db2 50%,#ebc822 22.5%);
+        background: linear-gradient(to bottom,#106db2 50%,#ebc822 22.5%);
+        background-size: 100% 26px;
+      }
+
+      h1 {
+        color: #106db2;
+        font-family: 'Proxima Nova Semibold', Arial, SansSerif;
+        font-weight: normal;
+      }
+
+      .btn {
+        color: #106db2;
+
+        &:hover {
+          color: #0a426c;
+        }
+      }
+    }
+
+    .book-body section {
+      a {
+        @extend %bcc-anchor;
+      }
+
+      .bcc-button-chevron {
+        @extend %bcc-button-chevron;
+      }
+    }
   }
+}
 
-  h1 {
-    color: #106db2;
-    font-family: 'Proxima Nova Semibold', Arial, SansSerif;
+.markdown-section {
+  position: relative;
+
+  h1, h2, h3, h4, h5 {
     font-weight: normal;
   }
+}
 
-  .btn {
-    color: #106db2;
-
-    &:hover {
-      color: #0a426c;
-    }
+@media (min-width: 1241px) {
+  .markdown-section {
+    padding-bottom: 20px;
   }
 }

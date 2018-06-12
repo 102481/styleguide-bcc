@@ -1,28 +1,34 @@
-// Fonts.
-$arial:               Arial, sans-serif;
-$open-sans:           OpenSans, $arial;
-$proxima-nova:        ProximaNova, $arial;
+/*
+ * FONTS.
+ */
+
+$arial: Arial, sans-serif;
+$open-sans: OpenSans, $arial;
+$proxima-nova: ProximaNova, $arial;
 
 // Extra weights for fonts.
 $semibold: 600;
 $extrabold: 900;
 
-$header-font-family:  $proxima-nova;
-$font-body:           $open-sans;
-$font-monospace:      sans-serif;
+// Font variables.
+$heading-font: $proxima-nova;
+$body-font: $open-sans;
+$monospace-font: sans-serif;
 
 // The variable used by normalize to set the font family on the html element.
-$base-font-family:    $font-body;
+$base-font-family: $body-font;
+$base-font-size: 14px;
+$base-line-height: 22px;
 
-$base-font-size:      14px; // The font size set on the root html element.
-$base-line-height:    22px; // ~ $base-font-size * 1.6; // This line-height determines the basic unit of vertical rhythm.
+$h1-font-size: 2.2rem;
+$h2-font-size: $h1-font-size * .85;
+$h3-font-size: $h1-font-size * .7;
+$h4-font-size: $h1-font-size * .65;
+$h5-font-size: $h1-font-size * .6;
 
-$h1-font-size:        2.2rem;
-$h2-font-size:        $h1-font-size * .85;
-$h3-font-size:        $h1-font-size * .7;
-$h4-font-size:        $h1-font-size * .65;
-$h5-font-size:        $h1-font-size * .6;
-
+/*
+ * COLOURS.
+ */
 
 // Primary colours.
 $blue: #106db2;
@@ -58,6 +64,7 @@ $input-text: $body-text;
 $placeholder-text: #777;
 
 $link-color: $blue;
+$link-color-active: $dark-blue;
 
 $error-color: #a94442;
 $ok-color: #3c763d;

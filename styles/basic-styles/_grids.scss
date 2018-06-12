@@ -1,0 +1,36 @@
+@import '../..//node_modules/zen-grids/sass/zen-grids';
+
+$zen-columns: 8;
+$zen-gutters: 1em;
+
+#grid-example {
+  @include zen-grid-container();  // Designates this element as a Zen Grid.
+
+  .grid-example-header {
+    @include zen-grid-item(8, 1); // Span 8 columns, starting in column 1.
+  }
+  .grid-example-box-a {
+    @include zen-new-row();       // Start a new grid row.
+    @include zen-grid-item(2, 1); // Span 2 columns, starting in column 1.
+  }
+  .grid-example-box-b {
+    @include zen-grid-item(5, 4); // Span 5 columns, starting in column 4.
+  }
+  .grid-example-box-c {
+    @include zen-new-row();       // Start a new grid row.
+    @include zen-grid-item(6, 2); // Span 6 columns, starting in column 2.
+  }
+
+  // Other cosmetic styles.
+  > * {
+    min-height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-example-header { background-color: rgba($body-text, .8); color: white; }
+  .grid-example-box-a  { background-color: rgba($blue, .4); }
+  .grid-example-box-b  { background-color: rgba($yellow, .4); }
+  .grid-example-box-c  { background-color: rgba($green, .4); }
+}

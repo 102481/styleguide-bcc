@@ -1,0 +1,33 @@
+$_heading-font-sizes: (
+  1: 1,
+  2: .85,
+  3: .7,
+  4: .65,
+  5: .6
+);
+
+%_bcc-heading {
+  font-family: $heading-font;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: $blue;
+}
+
+@each $heading-level, $mult in $_heading-font-sizes {
+  %bcc-h#{$heading-level} {
+    @extend %_bcc-heading;
+    font-size: $h1-font-size * $mult;
+  }
+}
+
+%bcc-anchor {
+  &, &:visited {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $dark-blue;
+    text-decoration: underline;
+  }
+}

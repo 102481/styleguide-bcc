@@ -1,0 +1,16 @@
+// Font family examples.
+
+$font-example-mulitplier: 3;
+
+#open-sans-example {
+  font-family: $open-sans;
+}
+
+#proxima-nova-example {
+  font-family: $proxima-nova;
+}
+
+#open-sans-example, #proxima-nova-example {
+  font-size: 1em * $font-example-mulitplier;
+  margin-bottom: 1em / $font-example-mulitplier;
+}

@@ -1,0 +1,13 @@
+// Edit this to point to the /fonts folder.
+$font-dir: '/styles/vendor/bcc-sass-framework/fonts';
+
+// Basic styles.
+@import 'variables';
+@import 'fonts';
+@import 'typography';
+
+// Components.
+@import 'components/buttons';
+
+// Extends some basic HTML tags (e.g. <h1>, <p>) and classes.
+@import 'bindings';

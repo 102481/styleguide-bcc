@@ -1,0 +1,19 @@
+.colour-example {
+  display: block;
+  width: 100%;
+  height: 10vw;
+  min-height: 4em;
+  max-height: 12em;
+  margin:: .5em 0;
+
+  // Subtle effects
+  border-radius: 3px;
+  border-bottom: 1px solid rgba(black, .15);
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#blue-example      { background-color: $blue; }
+#yellow-example    { background-color: $yellow; }
+#green-example     { background-color: $green; }
+#grey-bg-example   { background-color: $background-grey; }
+#dark-grey-example { background-color: $body-text; }

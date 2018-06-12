@@ -10,7 +10,6 @@
     "website": "./styles/website.scss"
   },
   "pluginsConfig": {
-
     "theme-api": {
       "theme": "dark",
       "languages": [
