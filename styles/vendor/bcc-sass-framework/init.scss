@@ -7,6 +7,7 @@ $font-dir: '/styles/vendor/bcc-sass-framework/fonts';
 @import 'typography';
 
 // Components.
+@import 'components/chevron';
 @import 'components/buttons';
 
 // Extends some basic HTML tags (e.g. <h1>, <p>) and classes.

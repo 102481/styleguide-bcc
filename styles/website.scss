@@ -1,10 +1,8 @@
 @import "vendor/bcc-sass-framework/init";
 
-@import "basic-styles/typography";
-@import "basic-styles/colours";
-@import "basic-styles/grids";
-
-@import "ui-components/buttons";
+@import "base-styles/typography";
+@import "base-styles/colours";
+@import "base-styles/grids";
 
 // General styles
 
@@ -41,8 +39,8 @@
 
       h1 {
         color: #106db2;
-        font-family: 'Proxima Nova Semibold', Arial, SansSerif;
-        font-weight: normal;
+        font-family: 'Proxima Nova', Arial, SansSerif;
+        font-weight: $semibold;
       }
 
       .btn {
@@ -59,9 +57,9 @@
         @extend %bcc-anchor;
       }
 
-      .bcc-button-chevron {
-        @extend %bcc-button-chevron;
-      }
+      .bcc-button-default { @extend %bcc-button-default; }
+      .bcc-button-large   { @extend %bcc-button-large; }
+      .bcc-button-chevron { @extend %bcc-button-chevron; }
     }
   }
 }

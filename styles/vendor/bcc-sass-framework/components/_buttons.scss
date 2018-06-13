@@ -1,8 +1,13 @@
 %_bcc-button-reset {
+  display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 %bcc-button-default {
@@ -30,26 +35,16 @@
 %bcc-button-chevron {
   @extend %_bcc-button-reset;
   position: relative;
-  padding: 1em;
+  padding: 1em 1.2em;
+  color: $link-color;
   background-color: $background-grey;
   border-bottom: 1px solid darken($background-grey, 5%);
   border-right: 3em solid darken($background-grey, 5%);
 
   &:hover {
+    color: $link-color-active;
     background-color: darken($background-grey, 5%);
   }
 
-  &:after {
-    content: '';
-    position: absolute;
-    top: calc(50% - .375em);
-    right: -1.7em;
-    width: .75em;
-    height: .75em;
-    margin: -1px;
-    transform: rotate(45deg);
-    border: 2px solid $dark-blue;
-    border-bottom: none;
-    border-left: none;
-  }
+  @include chevron(.75em, 2px, $link-color-active, -1.7em);
 }

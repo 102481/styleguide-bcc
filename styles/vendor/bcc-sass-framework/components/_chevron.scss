@@ -1,0 +1,23 @@
+/**
+ * Creates a chevron on the right-hand side of an element.
+ * Useful for buttons.
+ *
+ * $size    length of the side of the chevron
+ * $stroke  stroke width of the chevron
+ * $colour  colour of the chevron
+ */
+@mixin chevron ($size, $stroke, $colour, $offset) {
+  &:after {
+    content: '';
+    position: absolute;
+    top: calc(50% - #{$size / 2});
+    right: $offset;
+    width: $size;
+    height: $size;
+    margin: $stroke / -2;
+    transform: rotate(45deg);
+    border: $stroke solid $colour;
+    border-bottom: none;
+    border-left: none;
+  }
+}

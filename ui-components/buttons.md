@@ -24,6 +24,7 @@ The default button used around Council's corporate website. To use this button, 
 }
 {%- language name="CSS", type="css" -%}
 .bcc-button-default {
+  display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
@@ -36,6 +37,7 @@ The default button used around Council's corporate website. To use this button, 
 .bcc-button-default:hover {
   background-color: #ffd200;
   color: #333333;
+  text-decoration: none;
 }
 {%- endcodetabs %}
 
@@ -55,6 +57,7 @@ This button is commonly found in Council's webforms. To use this button, add the
 }
 {%- language name="CSS", type="css" -%}
 .bcc-button-large {
+  display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
@@ -70,6 +73,7 @@ This button is commonly found in Council's webforms. To use this button, add the
 .bcc-button-large:hover {
   background-color: #ffd200;
   color: #333333;
+  text-decoration: none;
 }
 {%- endcodetabs %}
 
@@ -89,6 +93,7 @@ A different style of button found in lists and some panels on the corporate site
 }
 {%- language name="CSS", type="css" -%}
 .bcc-button-chevron {
+  display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
@@ -100,7 +105,9 @@ A different style of button found in lists and some panels on the corporate site
   border-right: 3em solid #e2e2e2;
 }
 .bcc-button-chevron:hover {
+  color: #0c5083;
   background-color: #e2e2e2;
+  text-decoration: none;
 }
 .bcc-button-chevron:after {
   content: '';

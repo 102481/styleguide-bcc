@@ -1,6 +1,6 @@
 # Set up
 
-Brisbane City Council uses the Sass preprocessor [Compass](http://compass-style.org/) to compile `.scss` files into CSS. Before attempting to use the classes or mixins defined in this style guide, download [bcc-sass-framework.zip](/asssets/bcc-sass-framework.zip) and include it in your project.
+Brisbane City Council uses the Sass preprocessor [Compass](http://compass-style.org/) to compile `.scss` files into CSS. Before using the CSS classes in this style guide, download [Council's Sass framework](/asssets/bcc-sass-framework.zip) and include it in your project.
 
 ## Example usage
 
@@ -21,7 +21,7 @@ src/scss
         └── init.scss
 ```
 
-Then, import `init.scss` into your root `.scss` file:
+Then, import `init.scss` into your project's root `.scss` file:
 
 {% codetabs name="SCSS", type="scss" -%}
 @import 'vendor/bcc-sass-framework/init';
